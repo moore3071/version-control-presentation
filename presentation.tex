@@ -1,0 +1,111 @@
+\documentclass[8pt]{beamer}
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\title{An Introduction to Version Control}
+\author{Brandon Moore\\Open Source Club}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\section{Table of Contents}
+\begin{frame}
+	\frametitle{Table of Contents}
+	\tableofcontents[]
+\end{frame}
+
+\section{What is version control?}
+\begin{frame}
+	\frametitle{What is version control?}
+	\textit{Version control provides a way to keep snapshots of a project (typically source code) throughout time.}\\
+	\hfill \break
+	\onslide<2->{\textbf{Why?}}
+	\begin{itemize}
+		\item<3-> Find out where things broke
+		\item<4-> Make features without breaking production
+		\item<5-> Work with a group
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Distributed versus Centralized}
+	What's the difference?\\
+	\hfill \break
+	\textit{Distributed}\\
+	Each person gets a full repository that they can modify on their machine. Each user can contribute to the same branch without major concerns as merge markers will be inserted.\\
+	\hfill \break
+	\textit{Centralized}\\
+	Each person contributes to a repository located in one place. All changes end up in this centralized location allowing easy code review, but requires the use of branching or file locking(in the repo file system) to avoid conflicts.\\
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+				\textbf{Distributed}
+				\begin{itemize}
+					\item Git
+					\item Mercurial
+					\item Bazaar
+					\item SVK
+				\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\textbf{Centralized}
+			\begin{itemize}
+				\item CVS
+				\item Subversion
+				\item Google docs*
+				\item Word '07
+				\item Wikipedia*
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pros and cons of distributed}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\textbf{Pros}
+			\begin{itemize}
+				\item temp
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\textbf{Cons}
+			\begin{itemize}
+				\item temp
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pros and cons of centralized}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\textbf{Pros}
+			\begin{itemize}
+				\item temp
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\textbf{Cons}
+			\begin{itemize}
+				\item temp
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Questions?}
+\end{frame}
+
+\end{document}

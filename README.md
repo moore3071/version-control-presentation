@@ -1,2 +1,2 @@
-# version-control-software-presentation
-A presentation to provide an introduction to version control software
+# version-control-presentation
+A presentation to provide an introduction to version control systems
